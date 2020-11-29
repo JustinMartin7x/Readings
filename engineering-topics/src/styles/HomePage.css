@@ -1,0 +1,10 @@
+.list {
+    margin-top: 15px;
+    background-color: #7CA5B8;
+    border-radius: 15px;
+    min-height: 20vh;
+    min-width: 15vw;
+    text-align: left;
+    text-indent: 10px;
+    color: #A9DBB8;
+}
