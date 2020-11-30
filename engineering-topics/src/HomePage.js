@@ -9,8 +9,8 @@ export default class HomePage extends Component {
                 Engineering Topics
                 <ul>
                     <Link to='./Quantity'> <li>Quantity Trumps Quality</li></Link>
-                    <li>Clean Code: Chapter 1</li>
-                    <li>TDD Red-Green-Refactor</li>
+                    <Link to='./CleanCode'><li>Clean Code: Chapter 1</li></Link>
+                    <Link to="./RedGreen"><li>TDD Red-Green-Refactor</li></Link>
                     <li>Cycles of TDD</li>
                 </ul>
 

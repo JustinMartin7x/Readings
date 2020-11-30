@@ -1,0 +1,13 @@
+.clean {
+    
+    height: 500px;
+    width: 500px;
+
+
+}
+.quote {
+    font-style: italic;
+    margin: 2 px;
+    font-family: 'Courier New', Courier, monospace;
+
+}

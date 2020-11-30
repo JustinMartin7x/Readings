@@ -3,6 +3,8 @@ import './styles/App.css';
 import HomePage from './HomePage.js'
 import Header from './Header.js'
 import Quantity from './Quantity.js'
+import CleanCode from './CleanCode.js'
+import RedGreen from './RedGreen.js'
 import {
   BrowserRouter as Router,
   Route,
@@ -29,6 +31,18 @@ export default class App extends Component {
               path="/Quantity"
               exact
               render={(routerProps) => <Quantity {...routerProps}
+              />}
+            />
+            <Route
+              path="/CleanCode"
+              exact
+              render={(routerProps) => <CleanCode {...routerProps}
+              />}
+            />
+            <Route
+              path="/RedGreen"
+              exact
+              render={(routerProps) => <RedGreen {...routerProps}
               />}
             />
           </Switch>
